@@ -2,6 +2,8 @@
 This is a portfolio of all the work I have done using Python and Java.
 
 # Description of the Finance Calculators project
+- This program was written in Python.
+
 - This is an application which allows the user to access 2 different calculators, an investment or bond calculator, by inputting the 
   appropriate action.
   
