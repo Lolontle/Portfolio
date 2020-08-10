@@ -1,0 +1,67 @@
+<style>
+	body {
+		text-align: center;
+		background-color: black;
+		font-family: 
+	}
+	main {
+		background-color: white;
+		}
+	form  {
+		background-color: silver;
+		}
+</style>
+<body>
+  <main>
+    <h1 id = "title">Lolontle's survey form</h1>
+    <p id = "description">This is a form to find out more about you</p>
+    <form id = "survey-form">
+      <label id = "name-label" for = "name">Name and Surname</label><br>
+      <input type = "text" id = "name" name = "name" placeholder = "Your name and surname..." required><br><br>
+      
+      <label id = "email-label" for = "email">Email address</label><br>
+      <input type = "email" id = "email" name = "email" placeholder = "Your email address..." required><br><br>
+      
+      <label id = "number-label" for = "age">Age</label><br>
+      <input type = "number" id = "number" name = "age" min = "5" max = "130" placeholder = "Your age in years..."><br><br>
+      
+      <label for = "province">Please select the province you are from:</label><br>
+      <select id = "dropdown" name = "province">
+        <option id = "dropdown" value = "eastern-cape">Eastern Cape</option>
+        <option id = "dropdown" value = "free-state">Free State</option>
+        <option id =  "dropdown" value = "gauteng">Gauteng</option>
+        <option id ="dropdown" value = "kwa-zulu-natal">Kwa Zulu Natal</option>
+        <option id = "dropbox" value = "limpopo">Limpopo</option>
+        <option id = "dropdox" value = "mpumalanga">Mpumalanga</option>
+        <option id = "dropbox" value = "northern-cape">Northern Cape</option>
+        <option id = "dropbox" value = "north-west">North West</option>
+        <option id = "dropbox" value = "western-cape">Western Cape</option>
+      </select><br><br>
+    
+    <p>Please enter your gender:</p>  
+    <input type = "radio" id = "male" name = "gender" value = "male">
+      <label for = "male">Male</label><br>
+    <input type = "radio" id = "female" name = "gender" value = "female">
+      <label for = "female">Female</label><br>
+    <input type = "radio" id = "other" name = "gender" value = "other">
+      <label for = "other">Other</label><br><br>
+    
+    <p>Where did you spend time with Lolontle?</p>
+    <input type = "checkbox" id = "meeting1" name = "meeting1" value = "primary-school">
+      <label for = "meeting1">Primary School</label><br>
+    <input type  = "checkbox" id = "meeting2" name = "meeting2" value = "high-school">
+      <label for = "meeting2">High School</label><br>
+    <input type = "checkbox" id = "meeting3" name = "meeting3" value = "university">
+      <label for = "meeting3">University</label><br>
+    <input type = "checkbox" id = "meeting4" name = "meeting4" value = "work-place">
+      <label for = "meeting4">Work Place</label><br>
+    <input type = "checkbox" id = "meeting5" name = "meeting5" value = "other">
+      <label for = "meeting5">Other</label><br><br>
+      
+      <p><strong>Please do add any additional comments, please remember nothing is confidential<strong></p>
+      <textarea id = "comments" name = "comments" placeholder = "Additional comments..." height = 200px width = 200px></textarea>
+      <br><br>
+      <input id = "submit" type = "submit" value = "Submit">
+      <p>Thank you for taking the time to complete this survey!</p> 
+    </main>
+   </body>
