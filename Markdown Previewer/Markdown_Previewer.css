@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+.preview {
+  background-color: white;
+  font-color: white;
+}
+.preview img {
+  max-width: 100%;
+}
+textarea, .preview {
+  min-height: 400px;
+}
