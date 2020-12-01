@@ -1,0 +1,30 @@
+<main>
+  <h1>Lolontle Moatshe 25 + 5 Clock</h1>
+  <div id="break-label" class="break-label">
+    Break Length
+    <p id="break-length" class="break-length">5</p>
+    <button id="break-decrement" class="break-decrement"><i class="fas fa-minus"></i></button>
+    <button id="break-increment" class="break-increment"><i class="fas fa-plus"></i></button>
+  </div>
+  <div id="session-label" class="session-label">
+    Session Length
+    <p id="session-length" class="session-length">25</p>
+    <button id="session-decrement" class="session-decrement"><i class="fas fa-minus"></i></button>
+    <button id="session-increment" class="session-increment"><i class="fas fa-plus"></i></button>
+  </div>
+  <div id="timer" class="timer">
+    <!--"timer label" refers to whether it's a session or a break; will change 
+        using JavaScript as needed-->
+    <p id="timer-label" class="timer-label">Session</p>
+    <p id="time-left" class="time-left">25:00</p>
+  </div>
+  <div class="timer-controls">
+    <button id="start_stop" class="start_stop">
+      <i class="fas fa-play"></i>
+      <i class="fas fa-pause"></i>
+    </button>
+    <button id="reset" class="reset"><i class="fas fa-sync-alt"></i></button>
+  </div>
+  <audio src="https://res.cloudinary.com/di6zg13wg/video/upload/v1603982950/335909__littlerainyseasons__time-s-up_xfzvjz.wav" id="beep"></audio>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
